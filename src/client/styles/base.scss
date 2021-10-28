@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 2;
+
+  p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
